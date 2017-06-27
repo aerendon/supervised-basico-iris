@@ -112,4 +112,12 @@ head(train)
 head(test)
 ```
 
+___
 
+## Data Visualization
+
+| Box and whisker | Histogram |
+|--|-----------|
+| ![Box and whisker plot](./data/img/BoxWhisker.png) | ![Histogram plot](./data/img/histogram.png) |
+
+![Scatter plot](./data/img/Scatter.png) 
