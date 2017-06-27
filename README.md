@@ -1,5 +1,33 @@
 # supervised-basico-iris
 
+## Dependencies
+
+* Python 3
+
+### Python VirtualEnv
+
+* Install
+
+```bash
+apt install python-virtualenv 
+```
+
+* Create 
+
+```bash
+mkdir env
+virtualenv -p /usr/bin/python3 env
+env/bin/pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+./starter_code.py
+```
+
+## Especifications
+
 El [iris](https://es.wikipedia.org/wiki/Iris_flor_conjunto_de_datos) es un conjunto de datos muy famoso por su simplicidad y a la vez es muy usado en ejemplos simples de libros y herramientas de Machine Learning. El conjunto de datos tiene cuatro variables que identifican a tres especies de flores diferentes. El objetivo es clasificar cada flor en un tipo diferente en función de las cuatro variables. Las cuatro variables son:
 
 * Ancho del pétalo

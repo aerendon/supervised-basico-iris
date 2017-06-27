@@ -1,3 +1,4 @@
+#!env/bin/python3
 # -*- coding: utf-8 -*-
 """
 Starter code for basic level
@@ -14,5 +15,6 @@ test = pd.read_csv("data/iris_test.csv")
 
 #Explorar primeros registros
 train.head()
-train.head()
+# train.head()
 
+print(train)
