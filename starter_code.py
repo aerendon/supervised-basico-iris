@@ -1,4 +1,3 @@
-#!env/bin/python3
 # -*- coding: utf-8 -*-
 """
 Starter code for basic level

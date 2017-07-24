@@ -3,28 +3,17 @@
 ## Dependencies
 
 * Python 3
-
-### Python VirtualEnv
-
-* Install
-
-```bash
-apt install python-virtualenv 
-```
-
-* Create 
-
-```bash
-mkdir env
-virtualenv -p /usr/bin/python3 env
-env/bin/pip install -r requirements.txt
-```
+* Jupyter
+* sklearn
+* numpy
+* scipy
 
 ### Run
 
 ```bash
-./starter_code.py
+jupyter notebook
 ```
+___
 
 ## Especifications
 
